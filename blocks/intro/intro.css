@@ -1,0 +1,25 @@
+.intro{
+  /* Экран */
+  max-width: 53.906vw;
+
+  /* Отступы */
+  margin: 0 auto 0 0;
+}
+
+@media screen and (max-width: 1124px) {
+  .intro{
+    max-width: 67.38vw;
+  }
+}
+
+@media screen and (max-width: 984px){
+  .intro{
+    max-width: 93.75vw;
+  }
+}
+
+@media screen and (max-width: 568px){
+  .intro{
+    max-width: 90.00vw;
+  }
+}

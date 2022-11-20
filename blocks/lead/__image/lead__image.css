@@ -1,0 +1,7 @@
+.lead__image{
+  /* Экран */
+  max-width: 100%;
+
+  /* Оступы */
+  margin-bottom: 8px;
+}
