@@ -1,4 +1,6 @@
 .cover__overlay{
+  /* Экран */
+  max-width: 92.5%;
   min-height: 740px;
   position: relative;
   display: flex;
@@ -6,17 +8,27 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+
+  /* Изображение */
   background-image: url(../../../images/__background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 20px;
+
+  /* Текст */
   color: #fff;
   text-decoration: none;
+
+  /* Отступы */
+  padding: 20px;
+  margin: 0 auto;
+
+  /* Расположение */
   z-index: 1;
 }
 
 .cover__overlay::before{
+  /* Экран */
   content: "";
   position: absolute;
   background-color: #2a2c2f;
@@ -25,7 +37,11 @@
   left: 0;
   right: 0;
   bottom: 0;
+
+  /* Расположение */
   z-index: -1;
+
+  /* Аниманция */
   transition: 0.5s;
 }
 
@@ -35,6 +51,7 @@
 
 @media screen and (max-width: 1124px) {
   .cover__overlay{
+    max-width: 100%;
     min-height: 480px;
   }
 }

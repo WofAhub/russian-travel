@@ -1,5 +1,38 @@
 .footer__link{
+  /* Текст */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
   text-decoration: none;
   color: #fff;
-  margin-right: 18px;
+
+  /* Отступы */
+  padding: 0;
+  margin: 0 18px 0 0;
+}
+
+.footer__link:last-of-type{
+  margin-right: 0;
+}
+
+@media screen and (max-width: 568px) {
+  .footer__link{
+    /* Экран */
+    display: flex;
+    flex-direction: column;
+
+    /* Текст */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    /* Отступы */
+    margin: 0 0 32px 0;
+  }
+
+  .footer__link:last-of-type{
+    margin-bottom: 0;
+  }
 }

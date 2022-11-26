@@ -1,5 +1,11 @@
 .place__image{
-  width: 100%;
+  /* Экран */
+  max-width: 100%;
+
+  /* Отступы */
   margin: 0;
+  padding: 0;
+
+  /* Разметка */
   grid-area: image;
 }

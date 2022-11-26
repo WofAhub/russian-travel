@@ -1,11 +1,16 @@
 .cover__title{
-max-width: 560px;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 106%;
-text-align: center;
-margin: 0 0 16px;
+  /* Экран */
+  max-width: 560px;
+
+  /* Текст */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+
+  /* Отступы */
+  margin: 0 0 16px;
 }
 
 @media screen and (max-width: 568px) {

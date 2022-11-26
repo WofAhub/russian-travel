@@ -1,6 +1,6 @@
 .header{
   /* Экран */
-  max-width: 92.500vw;
+  max-width: 92.5%;
   max-height: 52px;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1124px) {
   .header{
-    max-width: 90.625vw;
+    max-width: 90.625%;
   }
 }
 

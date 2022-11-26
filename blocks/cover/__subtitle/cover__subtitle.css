@@ -1,11 +1,16 @@
 .cover__subtitle{
-max-width: 360px;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 122%;
-text-align: center;
-margin: 16px 0 0;
+  /* Экран */
+  max-width: 360px;
+
+  /* Текст */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+
+  /* Отступы */
+  margin: 16px 0 0;
 }
 
 @media screen and (max-width: 984px) {

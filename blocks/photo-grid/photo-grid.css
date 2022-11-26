@@ -1,13 +1,13 @@
 .photo-grid{
   /* Экран */
-  max-width: 92.500vw;
+  max-width: 92.5%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
 
   /* Оступы */
-  margin: 0 auto;
+  margin: 0 auto 92px auto;
   padding: 0;
 }
 
@@ -29,5 +29,6 @@
   .photo-grid{
     width: 100%;
     grid-row-gap: 12px;
+    margin: 0 auto 64px auto;
   }
 }

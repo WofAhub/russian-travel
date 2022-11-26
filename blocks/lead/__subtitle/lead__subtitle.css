@@ -32,12 +32,17 @@
 
 @media screen and (max-width: 568px) {
   .lead__subtitle{
+    /* Экран */
     max-width: 90.00vw;
+
+    /* Текст */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+
+    /* Отступы */
     margin-bottom: 40px;
   }
 }

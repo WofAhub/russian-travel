@@ -1,12 +1,48 @@
 .place__title{
+  /* Экран */
+  max-width: 460px;
   display: flex;
   align-items: flex-end;
+
+  /* Текст */
   font-style: normal;
-  max-width: 460px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+
+  /* Отступы */
   margin: 0;
   padding: 0;
+
+  /* Разметка */
   grid-area: title;
+}
+
+@media screen and (max-width: 984px) {
+  .place__title{
+    /* Экран */
+    max-width: 340px;
+
+    /* Текст */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__title{
+    /* Экран */
+    max-width: 288px;
+    
+    /* Текст */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+
+    /* Отступы */
+    padding: 0 16px; 
+  }
 }

@@ -10,6 +10,9 @@
 /* PAGE */
 @import url(../page/page.css);
 
+/* LINKS */
+@import url(../links-transition/links-transition.css);
+
 /* HEADER */
 @import url(../header/header.css);
 @import url(../header/__logo/header__logo.css);
@@ -18,7 +21,6 @@
 /* CONTENT */
 @import url(../content/content.css);
 @import url(../content/__section/content__section.css);
-@import url(../content/__margin/content__margin.css);
 
 /* LEAD */
 @import url(../blocks/lead/lead.css);
@@ -37,7 +39,6 @@
 /* PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/_margin/photo-grid_margin.css);
 
 /* PLACES */
 @import url(../blocks/places/places.css);

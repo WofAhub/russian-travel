@@ -37,11 +37,16 @@
 
 @media screen and (max-width: 568px) {
   .lead__title{
+    /* Экран */
     max-width: 90.00vw;
+
+    /* Текст */
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
+
+    /* Отступы */
     margin: 0 0 16px 0;
   }
 }
