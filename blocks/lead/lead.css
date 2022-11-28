@@ -5,7 +5,8 @@
   flex-direction: column;
 
   /* Оступы */
-  margin: 0 auto 92px auto;
+  /* margin: 0 auto 92px auto; */
+  margin: 0 auto 0 auto;
 }
 
 @media screen and (max-width: 1124px) {
@@ -22,13 +23,11 @@
     /* Отступы */
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .lead{
     max-width: 100%;
-    margin-bottom: 64px;
   }
 }

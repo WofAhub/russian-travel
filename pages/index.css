@@ -51,6 +51,7 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/paragraph-style/paragraph-style.css);
 
 /* LINK-TRANSITION */
 @import url(../links-transition/links-transition.css);
