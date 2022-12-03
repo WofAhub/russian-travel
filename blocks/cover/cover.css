@@ -1,3 +1,18 @@
 .cover{
+  /* Экран */
+  box-sizing: border-box;
+  width: 100%;
+
+  /* Текст */
   font-family: 'Inter', Arial, sans-serif;
+
+  /* Отступы */
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1124px) {
+  .cover{
+    /* Отступы */
+    padding: 0;
+  }
 }

@@ -5,12 +5,13 @@
   background-color: #2A2C2F;
   
   /* Отступы */
-  padding: 28px 0 24px;
+  padding: 28px 0 24px 0;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 568px) {
   .page{
-    padding: 16px 0 24px;
+    /* Отступы */
+    padding: 16px 0 24px 0;
   }
 }

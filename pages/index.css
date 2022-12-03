@@ -10,17 +10,14 @@
 /* PAGE */
 @import url(../blocks/page/page.css);
 
-/* LINKS */
-@import url(../links-transition/links-transition.css);
-
 /* HEADER */
 @import url(../header/header.css);
 @import url(../header/__logo/header__logo.css);
 @import url(../header/__lang-link/header__lang-link.css);
+@import url(../header/__lang-link/_selected/header__lang-link_selected.css);
 
 /* CONTENT */
 @import url(../content/content.css);
-@import url(../content/__section/content__section.css);
 
 /* LEAD */
 @import url(../blocks/lead/lead.css);
@@ -28,6 +25,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
@@ -50,11 +48,11 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/paragraph-style/paragraph-style.css);
 
 /* LINK-TRANSITION */
-@import url(../links-transition/links-transition.css);
+@import url(../blocks/links-transition/links-transition.css);
 
 /* COVER */
 @import url(../blocks/cover/cover.css);

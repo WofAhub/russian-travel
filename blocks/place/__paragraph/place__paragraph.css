@@ -1,6 +1,5 @@
 .place__paragraph{
   /* Текст */
-  max-width: 484px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -8,17 +7,15 @@
 
   /* Отступы */
   margin: 0;
-  padding: 0;
+  padding: 0 0 26px 0;
+}
 
-  /* Разметка */
-  grid-area: paragraph;
+.place__paragraph:last-of-type{
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 984px) {
   .place__paragraph{
-    /* Экран */
-    max-width: 352px;
-
     /* Текст */
     font-style: normal;
     font-weight: 400;
@@ -29,7 +26,7 @@
 
 @media screen and (max-width: 568px) {
   .place__paragraph{
-    max-width: 288px;
-    padding: 0 16px;
+    /* Отступы */
+    padding: 0 0 25px 0;
   }
 }

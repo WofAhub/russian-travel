@@ -6,23 +6,27 @@
   grid-template-rows: minmax(min-content, max-content) minmax(460px, 1fr);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
+  margin: 0 auto 0 auto;
 
   /* Разметка */
   grid-template-areas:
     "title website"
-    "image paragraph";
+    "image paragraphs";
 }
 
 @media screen and (max-width: 1124px) {
   .place{
+    /* Экран */
     max-width: 90.625vw;
     grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
+    grid-column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .place{
+    /* Экран */
     max-width: 93.750vw;
     grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
@@ -33,19 +37,23 @@
 
 @media screen and (max-width: 568px) {
   .place{
+    /* Экран */
     max-width: 100%;
-    grid-template-columns: 100%;
+    /* grid-template-columns: 100%;
     grid-template-rows: 1fr;
-    row-gap: 32px;
+    grid-row-gap: 32px; */
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 
     /* Отступы */
     margin: 0 auto;
 
     /* Разметка */
     grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "paragraph";
+      "title"
+      "website"
+      "image"
+      "paragraphs";
   }
 }

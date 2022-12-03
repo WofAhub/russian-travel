@@ -1,6 +1,7 @@
 .lead__title{
   /* Экран */
   max-width: 56.250vw;
+  max-height: 200px;
   
   /* Текст */
   font-style: normal;
@@ -29,8 +30,11 @@
 
 @media screen and (max-width: 688px) {
   .lead__title{
-    font-size: 60px;
+    /* Экран */
     max-width: 90.75vw;
+
+    /* Текст */
+    font-size: 60px;
     line-height: 72px;
   }
 }
@@ -39,6 +43,7 @@
   .lead__title{
     /* Экран */
     max-width: 90.00vw;
+    max-height: 88px;
 
     /* Текст */
     font-style: normal;

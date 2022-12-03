@@ -1,0 +1,32 @@
+.place__paragraphs{
+  /* Экран */
+  max-width: 484px;
+
+  /* Отступы */
+  margin: 0;
+  padding: 0;
+
+  /* Разметка */
+  grid-area: paragraphs;
+}
+
+@media screen and (max-width: 1124px) {
+  .place__paragraphs{
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place__paragraphs{
+    /* Экран */
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__paragraphs{
+    /* Экран */
+    max-width: 288px;
+    margin: 0 auto 0 auto;
+  }
+}

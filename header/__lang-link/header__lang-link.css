@@ -14,10 +14,6 @@
 }
 
 .header__lang-link:first-of-type{
-  /* Текст */  
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
-
   /* Отступы */
   margin-right: 18px;
 }
